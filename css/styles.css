@@ -411,11 +411,11 @@ img {
 
 .footer-box {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-social-container {
     margin-left: 70px;
-    margin-top: 12px;
 }
 
 .footer-social-title {
@@ -505,10 +505,13 @@ img {
     margin-right: 30px;
 }
 
-.projects-item:hover {
-    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+.project-link {
+    display: block;
 }
 
+.project-link:hover {
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
 
 .projects-list .projects-item:nth-child(3n + 3) {
     margin-right: 0;
